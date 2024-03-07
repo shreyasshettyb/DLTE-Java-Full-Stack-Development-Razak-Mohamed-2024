@@ -5,8 +5,8 @@ import app.mybank.entity.Transaction;
 import app.mybank.exceptions.CreditCardException;
 import app.mybank.exceptions.MyBankJarvisException;
 import app.mybank.exceptions.TransactionException;
-import app.mybank.middleware.CreditCardDatabaseRepository;
-import app.mybank.middleware.DatabaseTarget;
+//import app.mybank.middleware.CreditCardDatabaseRepository;
+//import app.mybank.middleware.DatabaseTarget;
 import app.mybank.middleware.FileStorageTarget;
 import app.mybank.remotes.StorageTarget;
 import app.mybank.services.CreditCardServices;
@@ -92,7 +92,20 @@ public class App
                         break;
                     case 3:
                         System.out.println("View transaction");
+                        System.out.println(resourceBundle.getString("app.menu.transaction"));
+                        option = scanner.nextInt();
+                        if(option ==1){
                         System.out.println(transactionService.callFindAllByCreditCard(creditCard.getCardNumber()));
+                        break;}
+                        else if(option ==2){
+                            System.out.println(transactionService.callFindAllByDate(new Date(24,02,24)));
+                        }
+                        else if(option ==3){
+                            System.out.println(transactionService.callFindAllByMerchant(11223355));
+                        }
+                        else{
+                            System.out.println("Invalid Option");
+                        }
                         break;
                     case 4:
                         System.out.println("View card");

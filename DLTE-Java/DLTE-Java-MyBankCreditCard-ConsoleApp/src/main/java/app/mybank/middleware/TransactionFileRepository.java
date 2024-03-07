@@ -175,12 +175,20 @@ public class TransactionFileRepository implements TransactionRepository {
 
     @Override
     public List<Transaction> findAllByDate(Date date) {
-        return null;
+        readFromTransactionFile();
+        List<Transaction> current = transactionList.stream().filter(each->each.getTransactionDate().before(date)).collect(Collectors.toList());
+        if(current.size()==0)
+            System.out.println(resourceBundle.getString("transaction.empty"));
+        return current;
     }
 
     @Override
     public List<Transaction> findAllByMerchant(Integer merchantId) {
-        return null;
+        readFromTransactionFile();
+        List<Transaction> current = transactionList.stream().filter(each->each.getMerchant().equals(merchantId)).collect(Collectors.toList());
+        if(current.size()==0)
+            System.out.println(resourceBundle.getString("transaction.empty"));
+        return current;
     }
 
     @Override
