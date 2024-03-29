@@ -1,0 +1,97 @@
+[31m2024-03-28 10:17:22,577[0;39m [32m[INFO][0;39m elements.spring.explore.DlteSpring007SoapApplication restartedMain [32mStarting DlteSpring007SoapApplication using Java 1.8.0_202 on SRDB with PID 9404 (D:\Course backups\Java\DLithe2024Feb-Corporate-TietoEvry\DLTE-Java Full Stack Development - Razak Mohamed\DLTE-Spring-Framework\DLTE-Spring-007-SOAP\target\classes started by SRDB in D:\Course backups\Java\DLithe2024Feb-Corporate-TietoEvry\DLTE-Java Full Stack Development - Razak Mohamed\DLTE-Spring-Framework\DLTE-Spring-007-SOAP)
+[0;39m[31m2024-03-28 10:17:22,586[0;39m [32m[INFO][0;39m elements.spring.explore.DlteSpring007SoapApplication restartedMain [32mNo active profile set, falling back to 1 default profile: "default"
+[0;39m[31m2024-03-28 10:17:22,835[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.restart.ChangeableUrls restartedMain [32mThe Class-Path manifest attribute in C:\Users\ADMIN\.m2\repository\com\oracle\database\security\oraclepki\21.5.0.0\oraclepki-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/21.5.0.0/osdt_core.jar,file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/21.5.0.0/osdt_cert.jar,file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/oracle.osdt/osdt_cert.jar
+[0;39m[31m2024-03-28 10:17:22,836[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor restartedMain [32mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[31m2024-03-28 10:17:22,837[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor restartedMain [32mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[31m2024-03-28 10:17:23,841[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate restartedMain [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[31m2024-03-28 10:17:23,854[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate restartedMain [32mFinished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+[0;39m[31m2024-03-28 10:17:24,036[0;39m [32m[INFO][0;39m org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker restartedMain [32mBean 'soapServiceConfiguration' of type [elements.spring.explore.configs.SoapServiceConfiguration$$EnhancerBySpringCGLIB$$a87190f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[0;39m[31m2024-03-28 10:17:24,037[0;39m [32m[INFO][0;39m org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker restartedMain [32mBean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9e566c9c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[0;39m[31m2024-03-28 10:17:24,130[0;39m [32m[INFO][0;39m org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping restartedMain [32mSupporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[0;39m[31m2024-03-28 10:17:24,544[0;39m [32m[INFO][0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer restartedMain [32mTomcat initialized with port(s): 8082 (http)
+[0;39m[31m2024-03-28 10:17:24,553[0;39m [32m[INFO][0;39m org.apache.catalina.core.StandardService restartedMain [32mStarting service [Tomcat]
+[0;39m[31m2024-03-28 10:17:24,553[0;39m [32m[INFO][0;39m org.apache.catalina.core.StandardEngine restartedMain [32mStarting Servlet engine: [Apache Tomcat/9.0.73]
+[0;39m[31m2024-03-28 10:17:24,626[0;39m [32m[INFO][0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] restartedMain [32mInitializing Spring embedded WebApplicationContext
+[0;39m[31m2024-03-28 10:17:24,626[0;39m [32m[INFO][0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext restartedMain [32mRoot WebApplicationContext: initialization completed in 1788 ms
+[0;39m[31m2024-03-28 10:17:24,684[0;39m [32m[ERROR][0;39m org.apache.catalina.session.StandardManager restartedMain [32mException loading sessions from persistent storage
+[0;39mjava.io.InvalidClassException: elements.spring.explore.security.MyBankOfficials; local class incompatible: stream classdesc serialVersionUID = 6143887078818189928, local class serialVersionUID = 7570028075705135015
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:699)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1885)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2042)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2211)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2211)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1635)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1050)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:219)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4956)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:481)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at elements.spring.explore.DlteSpring007SoapApplication.main(DlteSpring007SoapApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[31m2024-03-28 10:17:25,325[0;39m [32m[INFO][0;39m org.springframework.security.web.DefaultSecurityFilterChain restartedMain [32mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@615d4d5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79d528fe, org.springframework.security.web.context.SecurityContextPersistenceFilter@27907a9, org.springframework.security.web.header.HeaderWriterFilter@16356240, org.springframework.security.web.authentication.logout.LogoutFilter@22239c7a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@308f670, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3991ca00, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@773c57c8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e805e1b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3304d9f3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ce7e3a2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3087892a, org.springframework.security.web.session.SessionManagementFilter@1b1aa752, org.springframework.security.web.access.ExceptionTranslationFilter@3f7b4237, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e66df8e]
+[0;39m[31m2024-03-28 10:17:25,638[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource restartedMain [32mHikariPool-1 - Starting...
+[0;39m[31m2024-03-28 10:17:25,640[0;39m [32m[WARN][0;39m com.zaxxer.hikari.util.DriverDataSource restartedMain [32mRegistered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[0;39m[31m2024-03-28 10:17:25,730[0;39m [32m[INFO][0;39m com.zaxxer.hikari.pool.PoolBase restartedMain [32mHikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+[0;39m[31m2024-03-28 10:17:25,732[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource restartedMain [32mHikariPool-1 - Start completed.
+[0;39m[31m2024-03-28 10:17:25,882[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer restartedMain [32mLiveReload server is running on port 35729
+[0;39m[31m2024-03-28 10:17:25,938[0;39m [32m[INFO][0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer restartedMain [32mTomcat started on port(s): 8082 (http) with context path ''
+[0;39m[31m2024-03-28 10:17:25,953[0;39m [32m[INFO][0;39m elements.spring.explore.DlteSpring007SoapApplication restartedMain [32mStarted DlteSpring007SoapApplication in 3.878 seconds (JVM running for 4.866)
+[0;39m[31m2024-03-28 10:20:12,220[0;39m [32m[INFO][0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] http-nio-8082-exec-1 [32mInitializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+[0;39m[31m2024-03-28 10:20:12,220[0;39m [32m[INFO][0;39m org.springframework.ws.transport.http.MessageDispatcherServlet http-nio-8082-exec-1 [32mInitializing Servlet 'messageDispatcherServlet'
+[0;39m[31m2024-03-28 10:20:12,225[0;39m [32m[INFO][0;39m org.springframework.ws.soap.saaj.SaajSoapMessageFactory http-nio-8082-exec-1 [32mCreating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+[0;39m[31m2024-03-28 10:20:12,238[0;39m [32m[INFO][0;39m org.springframework.ws.transport.http.MessageDispatcherServlet http-nio-8082-exec-1 [32mCompleted initialization in 18 ms
+[0;39m[31m2024-03-28 10:20:12,273[0;39m [32m[INFO][0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] http-nio-8082-exec-1 [32mInitializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m[31m2024-03-28 10:20:12,273[0;39m [32m[INFO][0;39m org.springframework.web.servlet.DispatcherServlet http-nio-8082-exec-1 [32mInitializing Servlet 'dispatcherServlet'
+[0;39m[31m2024-03-28 10:20:12,274[0;39m [32m[INFO][0;39m org.springframework.web.servlet.DispatcherServlet http-nio-8082-exec-1 [32mCompleted initialization in 0 ms
+[0;39m[31m2024-03-28 10:32:31,101[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource SpringApplicationShutdownHook [32mHikariPool-1 - Shutdown initiated...
+[0;39m[31m2024-03-28 10:32:31,120[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource SpringApplicationShutdownHook [32mHikariPool-1 - Shutdown completed.
+[0;39m
